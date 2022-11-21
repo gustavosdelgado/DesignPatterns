@@ -10,3 +10,6 @@ Factory Method is a creational design pattern that provides an interface for cre
 
 ### Abstract Factory
 Lets you produce families of related objects without specifying their concrete classes. It applies the Single Responsibility Principle (SRP) and also Open-Closed Principle (OCP). As a drawback it adds a lot of complexity to your code.
+
+### Builder
+This pattern delegates the construction action to a specific class, isolating construction complexity. It also allows multiple ways of creating an object without multiple constructors.
