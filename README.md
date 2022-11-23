@@ -13,3 +13,6 @@ Lets you produce families of related objects without specifying their concrete c
 
 ### Builder
 This pattern delegates the construction action to a specific class, isolating construction complexity. It also allows multiple ways of creating an object without multiple constructors.
+
+### Prototype
+A pattern that lets you copy existing objects without making your code dependent on their classes.
