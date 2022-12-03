@@ -19,3 +19,9 @@ A pattern that lets you copy existing objects without making your code dependent
 
 ### Singleton
 This pattern lets you have control over how many times a class can be instantiated. This is useful for shared resources, as when using DB. It's essential to make it thread-safe.
+
+## Structural Patterns
+Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
+
+### Adapter
+Allow objects with incompatible interfaces to collaborate.
