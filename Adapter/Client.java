@@ -8,7 +8,9 @@ public class Client {
         String cameraBrand = "Elsys";
         CameraControlAdapter camera = null;
         try {
-            Class<CameraControlAdapter> aClass = (Class<CameraControlAdapter>) Class.forName("Adapter." + cameraBrand + "CameraControlAdapter");
+            Class<CameraControlAdapter> aClass =
+                    (Class<CameraControlAdapter>) Class.forName(
+                            "Adapter." + cameraBrand + "CameraControlAdapter");
             Constructor<CameraControlAdapter> constructor = aClass.getDeclaredConstructor();
             camera = constructor.newInstance();
         } catch (Exception e) {

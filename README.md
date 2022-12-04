@@ -25,3 +25,6 @@ Structural design patterns explain how to assemble objects and classes into larg
 
 ### Adapter
 Allow objects with incompatible interfaces to collaborate.
+
+### Bridge
+Bridge is a structural design pattern that divides business logic or huge class into separate class hierarchies that can be developed independently.
