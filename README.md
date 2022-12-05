@@ -28,3 +28,6 @@ Allow objects with incompatible interfaces to collaborate.
 
 ### Bridge
 Bridge is a structural design pattern that divides business logic or huge class into separate class hierarchies that can be developed independently.
+
+### Composite
+A pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
