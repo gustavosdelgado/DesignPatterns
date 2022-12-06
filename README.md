@@ -31,3 +31,6 @@ Bridge is a structural design pattern that divides business logic or huge class 
 
 ### Composite
 A pattern that lets you compose objects into tree structures and then work with these structures as if they were individual objects.
+
+### Decorator
+This pattern lets you extends functionality to an object dynamically at runtime without changing its original aspects, but adding to it.
